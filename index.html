@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>website test</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar top -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Posseidon<span>Coffee</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#pictures">Pictures</a>
+        <a href="#menu-list">Menu</a>
+      </div>
+
+      <div class="navbar-icon">
+        <a href="#" id="schedule"><i data-feather="calendar"></i></a>
+        <a href="#contact" id="send"><i data-feather="send"></i></a>
+        <a href="#menu-bar" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- content -->
+
+    <!-- navbar bottom -->
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>"<span>Coffee</span> first, <br />schemes later."</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,<br />
+          facere natus velit deserunt totam provident aliquam error
+          asperiores,<br />
+          perferendis rerum dolore eum quo earum similique!
+        </p>
+        <a href="#" class="cta">Order Now!</a>
+      </main>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h2><span>About </span>Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-img.jpg" alt="about us" />
+        </div>
+        <div class="content">
+          <h3>Why Must Us?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            corrupti laudantium dicta iusto quia ullam molestiae porro nisi
+            consectetur tempore delectus vitae doloremque, doloribus et!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+            debitis, fugit, consectetur eius distinctio cum sapiente enim hic
+            unde eligendi quod suscipit odit laudantium voluptates?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- pictures section -->
+    <section id="pictures" class="pct">
+      <h2>interior <span>picts</span></h2>
+
+      <div class="row">
+        <div class="pct-card">
+          <img src="img/pictures/1.jpg" />
+        </div>
+        <div class="pct-card">
+          <img src="img/pictures/2.jpg" />
+        </div>
+        <div class="pct-card">
+          <img src="img/pictures/3.jpg" />
+        </div>
+        <div class="pct-card">
+          <img src="img/pictures/4.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section -->
+    <section id="menu-list" class="menu">
+      <h2><span>Menu </span>List</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+        tempore quisquam dolorem? Voluptas, quod! Doloribus.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-img" />
+          <h3 class="menu-title">- Espresso -</h3>
+          <p class="menu-price">IDR 15k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/2.jpg" alt="Americano" class="menu-img" />
+          <h3 class="menu-title">- Americano -</h3>
+          <p class="menu-price">IDR 15k</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+        tempore quisquam dolorem? Voluptas, quod! Doloribus.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.33876404948!2d112.5493803718722!3d-7.978467194350435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1768222531946!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no.handphone" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
