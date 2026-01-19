@@ -369,7 +369,7 @@ footer .credit a {
     z-index: 999;
   }
   .navbar .navbar-logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
     color: #fff;
     font-style: italic;
@@ -408,6 +408,15 @@ footer .credit a {
     transform: scaleX(0.2);
   }
 
+  .navbar .navbar-icon a {
+    color: #fff;
+    margin: 0 0.3rem;
+  }
+
+  .navbar .navbar-icon a:hover {
+    color: var(--primary);
+  }
+
   .about .row {
     flex-wrap: wrap;
   }
@@ -433,6 +442,7 @@ footer .credit a {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem 1rem;
   }
 
   .pct .row .pct-card img {
