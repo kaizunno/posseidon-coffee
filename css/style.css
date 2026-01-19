@@ -361,7 +361,7 @@ footer .credit a {
     align-items: center;
     padding: 1.4rem 4%;
     background-color: rgba(1, 1, 1, 0.8);
-    border-bottom: 1px solid #041d65;
+    border-bottom: 4px solid #041d65;
     position: fixed;
     height: 6vh;
     top: 0;
@@ -451,16 +451,16 @@ footer .credit a {
 
   .pct .row {
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 1rem;
+    gap: 8px;
     height: 100%;
   }
 
   .pct .row .pct-card img {
     width: 350px;
     height: 200px;
-    align-items: center;
     margin-bottom: 0.6rem;
   }
 
