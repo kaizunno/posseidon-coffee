@@ -369,7 +369,7 @@ footer .credit a {
     z-index: 999;
   }
   .navbar .navbar-logo {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 800;
     color: #fff;
     font-style: italic;
@@ -411,11 +411,22 @@ footer .credit a {
   .navbar .navbar-icon a {
     color: #fff;
     margin: 0 0.3rem;
-    size: 2rem;
+    padding: 0;
   }
 
   .navbar .navbar-icon a:hover {
     color: var(--primary);
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .pct,
+  .menu,
+  .contact {
+    height: 100vh;
+    align-items: center;
   }
 
   .about .row {
