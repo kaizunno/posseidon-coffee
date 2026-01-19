@@ -411,6 +411,7 @@ footer .credit a {
   .navbar .navbar-icon a {
     color: #fff;
     margin: 0 0.3rem;
+    size: 2rem;
   }
 
   .navbar .navbar-icon a:hover {
@@ -446,8 +447,8 @@ footer .credit a {
   }
 
   .pct .row .pct-card img {
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     margin-bottom: 0.6rem;
   }
 
