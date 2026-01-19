@@ -363,6 +363,7 @@ footer .credit a {
     background-color: rgba(1, 1, 1, 0.8);
     border-bottom: 1px solid #041d65;
     position: fixed;
+    height: 8vh;
     top: 0;
     left: 0;
     right: 0;
@@ -418,13 +419,13 @@ footer .credit a {
     color: var(--primary);
   }
 
-  .about {
-    height: 100vh;
+  .about,
+  .contact {
+    height: 80vh;
   }
 
   .pct,
-  .menu,
-  .contact {
+  .menu {
     height: 100vh;
     align-items: center;
   }
@@ -455,6 +456,7 @@ footer .credit a {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 1rem;
+    height: 100%;
   }
 
   .pct .row .pct-card img {
