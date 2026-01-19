@@ -310,17 +310,10 @@ body {
 
 /* media querries */
 
-/* desktop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 85%;
-  }
-}
-
 /* mobile */
 @media (max-width: 1000px) {
   html {
-    font-size: 50%;
+    font-size: 85%;
   }
   #menu {
     display: inline-block;
@@ -383,8 +376,8 @@ body {
   }
 
   .pct .row .pct-card img {
-    width: 32vw;
-    height: 24vh;
+    width: 240px;
+    height: 140px;
     margin-bottom: 0.6rem;
   }
 
