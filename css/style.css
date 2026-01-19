@@ -383,7 +383,7 @@ footer .credit a {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: var(--primary);
+    background-color: #0c104a;
     width: 25rem;
     height: 100vh;
     transition: 0.5s;
@@ -454,7 +454,6 @@ footer .credit a {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    height: 100%;
   }
 
   .pct .row .pct-card img {
