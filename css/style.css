@@ -302,7 +302,7 @@ body {
 }
 
 .pct .row .pct-card img {
-  width: 500px;
+  width: 450px;
   height: 300px;
   object-fit: cover;
   margin: 0.5rem 0.5rem;
@@ -312,11 +312,22 @@ body {
 
 /* mobile */
 @media (max-width: 1000px) {
-  html {
-    font-size: 85%;
-  }
   #menu {
     display: inline-block;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 4%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #041d65;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
   }
   .navbar .navbar-nav {
     position: absolute;
@@ -353,7 +364,7 @@ body {
   }
 
   .about .row .about-img img {
-    height: 28rem;
+    height: 32rem;
     object-fit: cover;
   }
 
@@ -376,14 +387,14 @@ body {
   }
 
   .pct .row .pct-card img {
-    width: 240px;
-    height: 140px;
+    width: 450px;
+    height: 300px;
     margin-bottom: 0.6rem;
   }
 
   .menu .row .menu-card img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
   }
 }
