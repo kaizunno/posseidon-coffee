@@ -350,7 +350,7 @@ footer .credit a {
 /* media querries */
 
 /* mobile */
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   #menu {
     display: inline-block;
   }
